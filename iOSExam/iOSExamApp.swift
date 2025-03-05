@@ -9,6 +9,7 @@ import SwiftUI
 
 @main
 struct iOSExamApp: App {
+    var data = DataStore()
     var body: some Scene {
         WindowGroup {
             ContentView()

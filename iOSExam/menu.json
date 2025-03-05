@@ -1,0 +1,51 @@
+{
+	"categories": [
+		{
+			"id": "550e8400-e29b-41d4-a716-446655440000",
+			"items": [
+				{ "id": "1b4e28ba-2fa1-11d2-883f-0016d3cca427", "name": "Classic Cheeseburger", "imageURL": "https://example.com/images/cheeseburger.jpg" },
+				{ "id": "2b4e28ba-2fa1-11d2-883f-0016d3cca427", "name": "Chicken Burger", "imageURL": "https://example.com/images/baconburger.jpg" },
+				{ "id": "3b4e28ba-2fa1-11d2-883f-0016d3cca427", "name": "BBQ Burger", "imageURL": "https://example.com/images/bbqburger.jpg" },
+				{ "id": "4b4e28ba-2fa1-11d2-883f-0016d3cca427", "name": "Mushroom Swiss Burger", "imageURL": "https://example.com/images/mushroomswiss.jpg" },
+				{ "id": "5b4e28ba-2fa1-11d2-883f-0016d3cca427", "name": "Veggie Burger", "imageURL": "https://example.com/images/veggieburger.jpg" },
+				{ "id": "6b4e28ba-2fa1-11d2-883f-0016d3cca427", "name": "Double Patty Burger", "imageURL": "https://example.com/images/doublepatty.jpg" },
+				{ "id": "7b4e28ba-2fa1-11d2-883f-0016d3cca427", "name": "Spicy Jalapeño Burger", "imageURL": "https://example.com/images/spicyjalapeno.jpg" },
+				{ "id": "8b4e28ba-2fa1-11d2-883f-0016d3cca427", "name": "Teriyaki Burger", "imageURL": "https://example.com/images/teriyakiburger.jpg" },
+				{ "id": "9b4e28ba-2fa1-11d2-883f-0016d3cca427", "name": "Black Bean Burger", "imageURL": "https://example.com/images/blackbeanburger.jpg" },
+			],
+            "imageURL": "https://example.com/images/burgers.jpg"
+		},
+		{
+			"id": "660e8400-e29b-41d4-a716-446655440001",
+			"items": [
+				{ "id": "11b4e28a-2fa1-11d2-883f-0016d3cca427", "name": "Margherita Pizza", "imageURL": "https://example.com/images/margherita.jpg" },
+				{ "id": "12b4e28a-2fa1-11d2-883f-0016d3cca427", "name": "Pepperoni Pizza", "imageURL": "https://example.com/images/pepperoni.jpg" },
+				{ "id": "13b4e28a-2fa1-11d2-883f-0016d3cca427", "name": "BBQ Chicken Pizza", "imageURL": "https://example.com/images/bbqchicken.jpg" },
+				{ "id": "14b4e28a-2fa1-11d2-883f-0016d3cca427", "name": "Hawaiian Pizza", "imageURL": "https://example.com/images/hawaiian.jpg" },
+				{ "id": "15b4e28a-2fa1-11d2-883f-0016d3cca427", "name": "Meat Lovers Pizza", "imageURL": "https://example.com/images/meatlovers.jpg" },
+				{ "id": "16b4e28a-2fa1-11d2-883f-0016d3cca427", "name": "Veggie Pizza", "imageURL": "https://example.com/images/veggiepizza.jpg" },
+				{ "id": "17b4e28a-2fa1-11d2-883f-0016d3cca427", "name": "White Pizza", "imageURL": "https://example.com/images/whitepizza.jpg" },
+				{ "id": "18b4e28a-2fa1-11d2-883f-0016d3cca427", "name": "Buffalo Chicken Pizza", "imageURL": "https://example.com/images/buffalochicken.jpg" },
+				{ "id": "19b4e28a-2fa1-11d2-883f-0016d3cca427", "name": "Mushroom Truffle Pizza", "imageURL": "https://example.com/images/mushroomtruffle.jpg" },
+				{ "id": "20b4e28a-2fa1-11d2-883f-0016d3cca427", "name": "Supreme Pizza", "imageURL": "https://example.com/images/supreme.jpg" }
+			],
+            "imageURL": "https://example.com/images/pizzas.jpg"
+		},
+		{
+			"id": "770e8400-e29b-41d4-a716-446655440002",
+			"items": [
+				{ "id": "21b4e8ba-2fa1-11d2-883f-0016d3cca427", "name": "Chocolate Cake", "imageURL": "https://example.com/images/chocolatecake.jpg" },
+				{ "id": "22b4e8ba-2fa1-11d2-883f-0016d3cca427", "name": "Cheesecake", "imageURL": "https://example.com/images/cheesecake.jpg" },
+				{ "id": "23b4e8ba-2fa1-11d2-883f-0016d3cca427", "name": "Brownies", "imageURL": "https://example.com/images/brownies.jpg" },
+				{ "id": "24b4e8ba-2fa1-11d2-883f-0016d3cca427", "name": "Apple Pie", "imageURL": "https://example.com/images/applepie.jpg" },
+				{ "id": "25b4e8ba-2fa1-11d2-883f-0016d3cca427", "name": "Ice Cream Sundae", "imageURL": "https://example.com/images/icecreamsundae.jpg" },
+				{ "id": "26b4e8ba-2fa1-11d2-883f-0016d3cca427", "name": "Tiramisu", "imageURL": "https://example.com/images/tiramisu.jpg" },
+				{ "id": "27b4e8ba-2fa1-11d2-883f-0016d3cca427", "name": "Creme Brulee", "imageURL": "https://example.com/images/cremebrulee.jpg" },
+				{ "id": "28b4e8ba-2fa1-11d2-883f-0016d3cca427", "name": "Lemon Tart", "imageURL": "https://example.com/images/lemontart.jpg" },
+				{ "id": "29b4e8ba-2fa1-11d2-883f-0016d3cca427", "name": "Fruit Parfait", "imageURL": "https://example.com/images/fruitparfait.jpg" },
+				{ "id": "30b4e8ba-2fa1-11d2-883f-0016d3cca427", "name": "Molten Lava Cake", "imageURL": "https://example.com/images/moltenlava.jpg" }
+			],
+            "imageURL": "https://example.com/images/desserts.jpg"
+		}
+	]
+}

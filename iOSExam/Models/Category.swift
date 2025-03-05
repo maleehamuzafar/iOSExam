@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Category {
+struct Category: Codable {
     let id: UUID
     let items: [Item]
     let imageURL: URL
