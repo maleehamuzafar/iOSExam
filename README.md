@@ -8,5 +8,6 @@ A SwiftUI app showcasing a **dynamic menu catalog** with a **custom search bar a
 ✅ **Image Carousel** – Swipe through the different menu categories.  
 ✅ **Custom Search Bar** – Instantly filter menu items by name.
 
-Data is loaded locally from **menu.json**
+Data is loaded locally from **menu.json**.
+
 Images used are available under Preview Assets
