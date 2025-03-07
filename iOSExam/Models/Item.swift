@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Item: Codable {
+struct Item: Codable, Identifiable {
     let id: UUID
     let name: String
     let imageURL: URL

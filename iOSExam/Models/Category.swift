@@ -10,11 +10,15 @@ import Foundation
 struct Category: Codable {
     let id: UUID
     let items: [Item]
-    let imageURL: URL
+    let imageURL: String
     
-    init(id: UUID = UUID(), items: [Item], imageURL: URL) {
+    init(id: UUID = UUID(), items: [Item], imageURL: String) {
         self.id = id
         self.items = items
         self.imageURL = imageURL
+    }
+    
+    func getURLForImage() -> URL? {
+        return URL(string: imageURL)
     }
 }

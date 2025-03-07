@@ -8,21 +8,20 @@
 import SwiftUI
 
 struct ItemView: View {
+    
+    var item: Item
+    
     var body: some View {
         VStack {
             HStack {
                 Image(systemName: "photo.fill")
-                Text("Label")
+                Text(item.name)
                     .frame(maxWidth: .infinity)
             }
             Divider()
                 .overlay(Color(.systemGray))
         }
         .padding(.vertical, Constants.padding)
-        .padding(.horizontal, Constants.padding*2)
+        .padding(.horizontal, Constants.paddingLg)
     }
-}
-
-#Preview(traits: .sizeThatFitsLayout) {
-    ItemView()
 }

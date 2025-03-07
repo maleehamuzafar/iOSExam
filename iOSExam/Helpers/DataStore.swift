@@ -11,28 +11,23 @@ struct MenuData: Codable {
     let categories: [Category]
 }
 
-class DataStore {
-    var menu = MenuData(categories: [])
+struct DataStore {
     
-    init() {
-        loadData()
-    }
-    
-    func loadData() {
+    static func loadData() -> MenuData {
         guard let url = Bundle.main.url(forResource: fileName, withExtension: fileExt) else {
             print("Failed to find JSON file")
-            return
+            return MenuData(categories: [])
         }
         do {
             let data = try Data(contentsOf: url)
             let decodedMenuData = try JSONDecoder().decode(MenuData.self, from: data)
-            self.menu = decodedMenuData
+            return decodedMenuData
         } catch {
             print("Error decoding JSON: \(error)")
-            return
+            return MenuData(categories: [])
         }
     }
     
-    private let fileName = "menu"
-    private let fileExt = "json"
+    private static let fileName = "menu"
+    private static let fileExt = "json"
 }
