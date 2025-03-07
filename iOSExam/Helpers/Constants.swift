@@ -8,8 +8,12 @@
 import Foundation
 
 enum Constants {
-    static let defaultPadding: CGFloat = 8
-    static let defaultCornerRadius: CGFloat = 12
+    static let cardSpacing: CGFloat = 10
+    static let cornerRadius: CGFloat = 12
+    
+    static let padding: CGFloat = 8
+    static let paddingSm: CGFloat = padding / 2
+    static let paddingLg: CGFloat = padding * 2
     
     static let shadowOpacity: CGFloat = 0.1
 }

@@ -18,8 +18,8 @@ struct ItemView: View {
             Divider()
                 .overlay(Color(.systemGray))
         }
-        .padding(.vertical, Constants.defaultPadding)
-        .padding(.horizontal, Constants.defaultPadding*2)
+        .padding(.vertical, Constants.padding)
+        .padding(.horizontal, Constants.padding*2)
     }
 }
 

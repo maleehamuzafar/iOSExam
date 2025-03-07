@@ -9,19 +9,24 @@ import SwiftUI
 
 struct ContentView: View {
     
+    @State private var currentIndex = 0
     @State private var searchText: String = ""
     
     var body: some View {
         ScrollView {
-            LazyVStack(pinnedViews: .sectionHeaders) {
-                Section {
-                    ItemView()
-                    ItemView()
-                    ItemView()
-                } header: {
-                    SearchBar(searchText: $searchText)
+            VStack {
+                ImageCarousel(index: $currentIndex, images: ["burgers", "pizzas", "desserts"])
+                
+                LazyVStack(pinnedViews: .sectionHeaders) {
+                    Section {
+                        ItemView()
+                        ItemView()
+                        ItemView()
+                    } header: {
+                        SearchBar(searchText: $searchText)
+                    }
                 }
-            }
+            }.padding(.vertical)
         }.clipped()
     }
 }

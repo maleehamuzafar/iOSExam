@@ -20,9 +20,9 @@ struct SearchBar: View {
                     .padding(3)
                     .background(.clear)
             }
-            .padding(Constants.defaultPadding)
+            .padding(Constants.padding)
             .background(Color(.systemGray6))
-            .cornerRadius(Constants.defaultCornerRadius)
+            .cornerRadius(Constants.cornerRadius)
             .shadow(color: Color.black.opacity(Constants.shadowOpacity), radius: 4, x: 0, y: 2)
         }
         .padding()
